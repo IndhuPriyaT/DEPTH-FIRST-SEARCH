@@ -70,7 +70,6 @@ Now, Queue becomes empty, So, terminate these process of iteration.
 </ol>
 <h3>Code</h3> 
 <hr>
-```
 from collections import defaultdict<br>
 import networkx as nx<br>
 import matplotlib.pyplot as plt<br>
@@ -113,7 +112,7 @@ print(traversedpath)<br>
 pos=nx.spring_layout(G)<br>
 nx.draw(G,pos,with_labels=True,node_color="lightblue",edge_color="red",node_size=2000)<br>
 plt.show()<br>
-```
+
 <hr>
 <h3>Sample Input</h3>
 <hr>
